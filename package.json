@@ -1,0 +1,10 @@
+{
+  "name": "orchard-viper-conductor-repo",
+  "version": "0.1.0",
+  "description": "Playbook for the @MRIIOT/orchard-viper-conductor meta-agent. Routes Viper questions to @MRIIOT/orchard-viper (canonical) or @MRIIOT/orchard-viper-forum (community) and synthesizes the answer.",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "_comment": "Intentionally minimal — the conductor has no local subprocesses. All work happens via MCP tools (route_to_peer, probe_peers) inside Claude Code. package.json exists only to mark the repo shape and let dev tooling treat the folder as a node project."
+}
