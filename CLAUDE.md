@@ -308,10 +308,10 @@ re-read CLAUDE.md, and retry. Never force-push.
 
 ### Specialist health
 
-(none yet. Example format:
-- 2026-MM-DD: @MRIIOT/orchard-viper-forum returned errors for ~30
-  minutes during VCA forum maintenance window. Routing fallback to
-  viper alone worked for the spec-sheet half of questions.)
+- 2026-05-23: Both specialists are published as isolated agents.
+  `route_to_peer` returns "isolated mode" error. Always use
+  `dispatch_to_agent("<owner>/<slug>", ...)` instead of
+  `route_to_peer`. Confirmed working for @MRIIOT/orchard-viper.
 
 ### Vocabulary that changed my routing
 
