@@ -315,7 +315,12 @@ re-read CLAUDE.md, and retry. Never force-push.
 
 ### Vocabulary that changed my routing
 
-(none yet. Example format:
+- "Gen 1" / "Gen 2" in the VCA community refers to spindle type,
+  not just model year: steel spindle = Gen 1 (1992–1996 RT/10,
+  early 1996 GTS); aluminum spindle = Gen 2 (1997–2002). Fitment
+  questions (brakes, suspension, wheels) hinge on this split.
+  When a user says "Gen 1" and asks about fitment, route to
+  viper-forum so the spindle distinction surfaces automatically.
 - "TSB" → always community / forum side, not manual.
 - "OEM spec for X" → always viper, even when the user phrases it
-  casually.)
+  casually.
