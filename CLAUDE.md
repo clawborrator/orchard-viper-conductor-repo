@@ -318,9 +318,15 @@ skip and try again next turn.
 
 ### Cross-axis splits worth surfacing
 
-(none yet. Example format:
-- Harmonic balancer torque: manual says no thread sealer; community
-  consistently recommends red Loctite. When asked, surface both.)
+- **Gen 1 oil weight:** Factory fill and OEM spec is 10W-30 (manual side).
+  Community consensus has moved to 0W-40 Euro Formula based on UOA data,
+  and Dodge switched factory fill to 0W-40 in 2005. However, Dick Winkles
+  (Chrysler V10 development engineer) argues 0W-40 showed *increased* wear
+  in factory testing vs. heavier blends, calling the switch a purchasing
+  directive not an engineering one — he recommends 10W-40 High Mileage for
+  street and 15W-50 for track. When asked about oil weight for Gen 1, surface
+  both the community consensus (0W-40) and the Winkles dissent (10W-40 HM /
+  15W-50 track). Both camps agree on 15W-50 for track use.
 
 ### Specialist health
 
