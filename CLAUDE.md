@@ -310,11 +310,18 @@ skip and try again next turn.
 
 ### Routing edge cases
 
-(none yet. Example format:
-- "Best oil weight for a TRACK car" — initially routed to viper
-  (looks like a spec question), but viper redirected to viper-forum
-  because owners pick different deltas from OEM for track use.
-  Now route track-use oil/fluid questions to viper-forum first.)
+- "How to perform compression / leakdown tests" — cross-axis (Axis C):
+  manual has the procedure and compression spec; leakdown spec is absent
+  from the manual entirely; community fills in real-world benchmarks and
+  V10-specific TDC quirks. Route to both.
+
+### Manual corpus gaps
+
+- @MRIIOT/orchard-viper-manual has **no Gen 1 (1992–1996) service manual**
+  in its corpus — only parts catalogs and 1997–98 SR II service manuals.
+  For spec questions on 1992–1996 cars, the manual specialist will answer
+  from the SR II manual (same 8.0L V10 family) and flag the caveat. Warn
+  users when the spec source is SR II, not Gen 1.
 
 ### Cross-axis splits worth surfacing
 
